@@ -1,0 +1,11 @@
+@use './maps' as *;
+
+@mixin media-query($breakpoint) {
+  @each $breakpoints, $size in $media-breakpoints {
+    @if $breakpoint == $breakpoints {
+      @media (max-width: $size) {
+        @content;
+      }
+    }
+  }
+}

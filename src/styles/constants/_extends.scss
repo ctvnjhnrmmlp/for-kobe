@@ -1,0 +1,152 @@
+@use '../constants/variables' as *;
+
+
+%bgc-black {
+  background-color: $black;
+}
+
+%bgc-white {
+  background-color: $white;
+}
+
+%fc-black {
+  color: $black;
+}
+
+%fc-white {
+  color: $white;
+}
+
+%trs-one {
+  transition: 0.5s ease;
+}
+
+%w-100 {
+  width: 100%;
+}
+
+%ds-flex {
+  display: flex;
+}
+
+%m-i-auto {
+  margin-inline: auto;
+}
+
+%jc-center {
+  justify-content: center;
+}
+
+%ai-center {
+  align-items: center;
+}
+
+%jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+%fd-column {
+  flex-direction: column;
+}
+
+// %jc-space-between {
+//   justify-content: space-between;
+// }
+
+// %jc-space-around {
+//   justify-content: space-around;
+// }
+
+// %fc-jet-black {
+//   color: $jet-black;
+// }
+
+// %fc-ghost-white {
+//   color: $ghost-white;
+// }
+
+// %fc-silver {
+//   color: $silver;
+// }
+
+// %fc-crayola-blue {
+//   color: $crayola-blue;
+// }
+
+// %fc-facebook-blue {
+//   color: $facebook-blue;
+// }
+
+// %fc-twitter-blue {
+//   color: $twitter-blue;
+// }
+
+// %fc-google-red {
+//   color: $google-red;
+// }
+
+// %fc-github-green {
+//   color: $github-green;
+// }
+
+// %fc-stack-overflow-orange {
+//   color: $stack-overflow-orange;
+// }
+
+// %fc-linkedin-blue {
+//   color: $linkedin-blue;
+// }
+
+// %fc-hashnode-blue {
+//   color: $hashnode-blue;
+// }
+
+// %fs-one {
+//   font-size: clamp(1.31rem, calc(1.24rem + 0.37vw), 1.50rem);
+// }
+
+// %fs-two {
+//   font-size: clamp(1.09rem, calc(1.05rem + 0.21vw), 1.20rem);
+// }
+
+// %fs-three {
+//   font-size: clamp(0.91rem, calc(0.89rem + 0.10vw), 0.96rem);
+// }
+
+// %fa-center {
+//   text-align: center;
+// }
+
+// %fd-none {
+//   text-decoration: none;
+// }
+
+// %font-transform-uppercase {
+//   text-transform: uppercase;
+// }
+
+
+
+// %bg-ghost-white {
+//   background: $ghost-white;
+// }
+
+// %bg-silver {
+//   background: $silver;
+// }
+
+// %bg-crayola-blue {
+//   background: $crayola-blue;
+// }
+
+// %bx-sh-one {
+//   box-shadow: 0px 0px 40px -10px rgba(0,0,0,0.7);
+//   -webkit-box-shadow: 0px 0px 40px -10px rgba(0,0,0,0.7);
+//   -moz-box-shadow: 0px 0px 40px -10px rgba(0,0,0,0.7);
+// }
+
+
+
+// %crs-none {
+//   cursor: none;
+// }

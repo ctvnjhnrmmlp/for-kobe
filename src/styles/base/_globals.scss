@@ -1,0 +1,60 @@
+body {
+  background-color: #0A0A0A;
+}
+
+section {
+  padding: 30vh 0;
+  transform-style: preserve-3d;
+  opacity: 0;
+}
+
+footer {
+  padding: 5vh 0;
+}
+
+.section__hero,
+.section__kobe-proud {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.section__kobe-pregame,
+.section__kobe-vs-lebron,
+.section__kobe-passing,
+.section__kobe-dunking,
+.section__kobe-against-defenders {
+  background-position: center;
+  background-size: 115vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.section__hero {
+  background-image: url('/src/assets/images/kobe-hustled.webp');
+}
+
+.section__kobe-pregame {
+  background-image: url('/src/assets/images/kobe-pregame.webp');
+}
+
+.section__kobe-vs-lebron {
+  background-image: url('/src/assets/images/kobe-vs-lebron.webp');
+}
+
+.section__kobe-passing {
+  background-image: url('/src/assets/images/kobe-passing.webp');
+}
+
+.section__kobe-dunking {
+  background-image: url('/src/assets/images/kobe-dunking.webp');
+}
+
+.section__kobe-against-defenders {
+  background-image: url('/src/assets/images/kobe-against-defenders.webp');
+}
+
+.section__kobe-proud {
+  background-image: url('/src/assets/images/kobe-championship.webp');
+}

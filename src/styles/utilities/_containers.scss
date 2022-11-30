@@ -1,0 +1,19 @@
+@use '../constants/extends' as *;
+
+.container {
+  & {
+    @extend %m-i-auto;
+    width: min(130.625rem, 90%);
+  }
+
+  &__content {
+    @extend %ds-flex;
+    @extend %jc-center;
+    @extend %ai-center;
+
+    flex-direction: column;
+    width: min(70rem, 90%);
+    margin-inline: auto;
+  }
+}
+
